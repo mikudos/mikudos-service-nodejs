@@ -10,5 +10,5 @@ module.exports = function (app) {
         defaults: true,
         oneofs: true
     }
-    app.context.grpcClients.usersClient = caller('mikudos_greeter_service:50051', { file, load }, 'GreeterService')
+    app.context.grpcClients.greeterClient = caller('mikudos_greeter_service:50051', { file, load }, 'GreeterService')
 };
