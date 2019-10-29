@@ -1,0 +1,25 @@
+{
+  "name": "mikudos_service_nodejs-service",
+  "version": "1.0.0",
+  "description": "mikudos_service_nodejs-grpc-service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikudos/mikudos_service_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "config": "^3.2.2",
+    "grpc": "^1.23.3",
+    "js-yaml": "^3.13.1",
+    "kafkajs": "^1.10.0",
+    "mali": "^0.18.0",
+    "mongoose": "^5.6.11"
+  }
+}
