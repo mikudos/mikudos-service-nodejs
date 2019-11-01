@@ -1,4 +1,4 @@
-const Application = require('mikudos-node-app');
+const { Application } = require('mikudos-node-app');
 const path = require('path');
 const mongoose = require('./mongoose');
 const middleware = require('./middleware');
@@ -19,4 +19,4 @@ app.configure(grpc_clients);
 app.configure(middleware);
 app.configure(services);
 
-module.exports.default = app;
+module.exports = app;
