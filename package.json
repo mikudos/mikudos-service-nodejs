@@ -1,28 +1,28 @@
 {
-  "name": "mikudos_service_nodejs-service",
-  "version": "1.0.0",
-  "description": "mikudos_service_nodejs-grpc-service",
-  "main": "src",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mikudos/mikudos_service_nodejs.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@grpc/proto-loader": "^0.5.1",
-    "grpc": "^1.24.2",
-    "grpc-caller": "^0.13.0",
-    "kafkajs": "^1.10.0",
-    "mikudos-node-app": "^1.0.16"
-  },
-  "devDependencies": {
-    "axios": "^0.19.0",
-    "mocha": "^6.2.0",
-    "nodemon": "^1.19.1"
-  }
+    "name": "mikudos_service_nodejs-service",
+    "version": "1.0.0",
+    "description": "mikudos_service_nodejs-grpc-service",
+    "main": "src",
+    "scripts": {
+        "test": "mocha \"test/**/*.js\" --recursive --exit",
+        "start": "node src/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mikudos/mikudos_service_nodejs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@grpc/proto-loader": "^0.5.1",
+        "grpc": "^1.24.2",
+        "grpc-caller": "^0.13.0",
+        "kafkajs": "^1.10.0",
+        "mikudos-node-app": "^1.0.16"
+    },
+    "devDependencies": {
+        "axios": "^0.19.0",
+        "mocha": "^6.2.0",
+        "nodemon": "^1.19.1"
+    }
 }
