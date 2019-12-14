@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@grpc/proto-loader": "^0.5.1",
-    "grpc": "^1.23.3",
+    "grpc": "^1.24.2",
     "grpc-caller": "^0.13.0",
     "kafkajs": "^1.10.0",
     "mikudos-node-app": "^1.0.16"
